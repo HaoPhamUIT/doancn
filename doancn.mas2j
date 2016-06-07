@@ -1,0 +1,10 @@
+MAS doancn {
+
+	infrastructure: Centralised
+    environment: HouseEnv(gui) // use "nogui" as parameter to not show the GUI
+    agents: robber;
+            protect;
+            gold;
+	aslSourcePath:
+		"src/asl";
+}
